@@ -1,0 +1,18 @@
+MEDIDAS
+PX -> PIXELES
+MEDIDAS FISICAS. QUE SABEMOS QUE USAREMOS EN ALGUN MOMENTO CON LA MEDIDA EXACTA COMO UN BANNER O UNA CARTELERA
+CM -> CENTIMETROS 
+MM -> MILIMETROS
+IN -> PULGADAS
+
+UNIDADES RELATIVAS -> DEPENDE DE OTRO VALOR MAS 
+% -> PORCENTAJE -> RESPECTO A SU CONTENEDOR
+
+em -> vale lo mismo que el fontsize del tamaño padre, siginifica que si el tamaño del padre es 20px 2em sera 40px
+
+rem ->lo mismo que el em pero buscara el elemento raiz (html) si el html vale 30px 1rem sera 30px
+
+MEDIDAS DEL VIEW PORT 
+vh - mitad de la vista de la altura total
+vw - mitad de la vista de el ancho total.
+dvh - nueva forma de medir la mas recomendable yaque en celulares aveces no toma el 100 vh y con dvh a pesar de cualquier cosa si lo hara

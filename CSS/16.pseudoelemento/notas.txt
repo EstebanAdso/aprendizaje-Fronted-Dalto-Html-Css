@@ -1,0 +1,2 @@
+parte especifica de un elemento
+se representa con dos puntos

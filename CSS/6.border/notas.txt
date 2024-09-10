@@ -1,0 +1,4 @@
+Content -> el contenido del box model
+padding -> relleno del elemento
+border -> linea que rodea tanto el contenido como el padding, puede tener varios estilos
+margin -> espacio al rededor de la caja, separa los elementos y no forma parte de la caja, separa el elemento de otras cajas.

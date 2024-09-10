@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 300px;
+    height: 400px;
+    background-color: #e2e2e2;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 20px  2px  2px 2px black;
+}
+
+.box2{
+    width: 300px;
+    height: 400px;
+    background-color: #e2e2e2;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 10px 0 #0007;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    list-style: none;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 14px;
+    /*sombra de texto*/
+    text-shadow: 0 0 40px black;
+}
+
+img{
+    width: 100%;
+    margin: auto;
+    /*sombra a la imagen*/
+    box-shadow: 0 0 20px #000;
+}
+
+/*para imagenes como png se utilizaria
+filter: drop-shadown(0 0 3px black)*/

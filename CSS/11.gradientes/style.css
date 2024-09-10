@@ -1,0 +1,23 @@
+.box{
+    width: 200px;
+    height: 200px;
+    /*gradiente lineal*/
+    background-image: linear-gradient(red,blue);
+    margin: 5px;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    /*gradiente lineal a la derecha*/
+    background-image: linear-gradient(to right,red,blue);
+    margin: 5px;
+}
+
+.box3{
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    /*gradiente radial*/
+    background-image: radial-gradient(blue,red)
+}

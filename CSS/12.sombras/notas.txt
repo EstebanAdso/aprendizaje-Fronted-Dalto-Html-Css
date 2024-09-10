@@ -1,0 +1,10 @@
+para cajas -> box shadown
+para textos  -> text shadown
+a un componente x -> drop shadown
+
+cuatro parametros
+1 -> cuantos pixeles quiero que corra horizontalmente
+2 -> cuantos se corre la sombra de forma vertical
+3 -> desenfoque de la sombra
+4 -> cuanto quiero que se espanda
+5 color

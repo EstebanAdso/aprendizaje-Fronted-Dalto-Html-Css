@@ -1,0 +1,6 @@
+para encabezados ->header
+para navegacion  -> nav
+referencia a una seccion -> section
+contenido principal -> main
+parte lateral, secundario -> aside
+pie de pagina -> footer

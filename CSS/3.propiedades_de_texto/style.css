@@ -1,0 +1,13 @@
+p{
+    color: rebeccapurple;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+    text-decoration: line-through;/* decoracion del texto en este caso tachar*/
+    line-height: 4; /*tamaño del espacio entre las lineas*/
+    letter-spacing: 10px; /*Separacion de cada letra*/
+    word-spacing: 50px; /*separacion de cada palabra*/
+    text-transform: capitalize; /*en este caso usa la primera letra de cada palabra la coloca en mayuscula, podemos colocar minusculas todo y mayusculas*/
+}

@@ -1,0 +1,31 @@
+/*modifica el primer elemento*/
+h1::first-letter{
+    color: red;
+}
+
+/*modifica la primera linea*/
+div::first-line{
+    color: blueviolet;
+}
+
+/*al seleccionar elementos*/
+h1::selection{
+    background-color: rgb(216, 213, 36);
+}
+
+/*modificar el placeholder*/
+input::placeholder{
+    color: green;
+}
+
+/*before*/
+li::before{
+    content: 'texto antes ';
+    color: red;
+}
+
+/*after*/
+li::after{
+    content: ' texto despues ';
+    color: rgb(9, 138, 105);
+}

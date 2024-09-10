@@ -1,0 +1,1 @@
+caja fija, si definimos el ancho y el alto la caja tendra el mismo tamaño

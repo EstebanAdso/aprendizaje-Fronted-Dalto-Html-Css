@@ -1,0 +1,2 @@
+ista__item -> metodologia bem dos guiones abajo
+item--danino -> modificador con doble guion medio

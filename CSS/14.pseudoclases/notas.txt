@@ -1,0 +1,1 @@
+selecciona un estado especifico de un elemento

@@ -1,0 +1,45 @@
+body{
+    background-color: #0f0;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-image: url(R.jpg); /*agreagando una imagen*/
+    background-position: center; /*donde estara posicionado*/
+    background-size: contain; /*que entre la imagen, o que contenga todo su contenido*/
+    background-repeat: no-repeat; /*que no repita la imagen*/
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-image: url(R.jpg); /*agreagando una imagen*/
+    background-position: center; /*centrar imagen*/
+    background-size: cover; /*que entre la imagen, o que contenga todo su contenido*/
+    background-repeat: no-repeat; /*que no repita la imagen*/
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-image: url(R.jpg); /*agreagando una imagen*/
+    background-position: left; /*ajustar la direccion de donde estara posicionado*/
+    background-size: cover; /*que entre la imagen, o que contenga todo su contenido*/
+    background-repeat: no-repeat; /*que no repita la imagen*/
+}
+
+/*que se mire con el scroll*/
+.box4{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-image: url(R.jpg); /*agreagando una imagen*/
+    background-position: left; /*ajustar la direccion de donde estara posicionado*/
+    background-size: cover; /*que entre la imagen, o que contenga todo su contenido*/
+    background-repeat: no-repeat; /*que no repita la imagen*/
+    background-attachment: fixed /*que se vayua mirando con el scroll */
+}

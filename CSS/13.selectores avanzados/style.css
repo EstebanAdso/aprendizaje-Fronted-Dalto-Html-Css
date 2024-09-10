@@ -1,0 +1,28 @@
+/*selector de atributo*/
+img[src="../../HTML/4.imagenes/perfil4.jpeg"]{
+    width: 100%;
+}
+
+/*selectores desendientes*/
+/*se da estilos a li que esten dentro de un ul*/
+ul li{
+    color: red;
+}
+
+/*selector por hijo directo*/
+/*strong es hijo directo de li*/
+li > strong{
+    color: green;
+}
+
+/*selector de hermano adyacente (a continuacion)*/
+/*seleccionar al primer  p que le sigue a un h1*/
+h1 + p{
+    color: blueviolet;
+}
+
+/*selector de hermanos generales*/
+/*seleccionamos a todos los p que le siguen a un h1*/
+h1 ~ p{
+    color:blue
+}

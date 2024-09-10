@@ -1,0 +1,5 @@
+:is(): Sirve para agrupar varios selectores. Se aplicará a cualquier elemento que coincida con al menos uno de los selectores dentro de :is().
+
+:where(): Funciona de manera similar a :is(), pero la principal diferencia es que la especificidad del selector siempre es cero, sin importar qué selectores pongas dentro.
+
+:has(): Es una pseudoclase que selecciona un elemento si contiene otro elemento que coincide con el selector especificado. A menudo se le llama el "selector padre" porque puede seleccionar un elemento en función de su contenido.

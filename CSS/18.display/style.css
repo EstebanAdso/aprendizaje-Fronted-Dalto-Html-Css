@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav{
+    background-color: #48e;
+}
+
+.nav__list{
+    margin: 0;
+}
+
+/*inline-block funciona igual que los elementos en bloque pero se pueden apilar*/
+.nav__item{
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav__item:hover{
+    background-color: #59e;
+}
+
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.link--button{
+    border: #48e;
+    background-color: #fff;
+    padding: 4px;
+    color: #48e;
+
+}
+
+div{
+    padding: 20px;
+    background-color: #ddd;
+}
+
+/*normalmente a es inline con la propiedad block se comportaran en bloque*/
+.enlace__div{
+    background-color: red;
+    color: #fff;
+    display: block;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+}

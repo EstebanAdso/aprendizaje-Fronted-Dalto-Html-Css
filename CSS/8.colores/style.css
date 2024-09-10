@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red; /*Color no absoluto*/
+    background-color: rgb(255, 0, 243); /*color rgb*/
+    background-color: rgba(255, 23, 23, 0.3); /*rgba adicional transparencia*/
+    background-color: #f0f; /*color hexadecimal, el primero es red, segundo green y tercero blue*/
+    margin: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/*el contenido aumenta con los atributos*/
+.box-default{
+    padding: 25px;
+    border: 10px solid black;
+}
+
+/*Conserva el tamaño que se le dio*/
+.box-new{
+    box-sizing: border-box;
+    padding: 25px;
+    border: 10px solid black;
+} 
+

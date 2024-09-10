@@ -1,0 +1,14 @@
+div{
+    background-color: red;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    /*Border*/
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    /*se puede resumir asi*/
+    border: 5px solid black;
+    /*bordear cada lado circularmente*/
+    border-radius: 10px 20px 10px 20px;
+}

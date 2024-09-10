@@ -1,0 +1,25 @@
+.lista{
+    border:2px solid black
+}
+
+.lista__item{
+    color: gray;
+    margin: 10px 0;
+    list-style: square;
+}
+
+/*clase modificadora*/
+.item--danino{
+    color: red;
+}
+
+/*clase modificadora*/
+.item--importante{
+    color: green;
+}
+
+/*clase modificadora*/
+.lista--vieja{
+    opacity: 0.5;
+    background-color: #ddd;
+}

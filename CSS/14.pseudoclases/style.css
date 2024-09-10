@@ -1,0 +1,43 @@
+h1{
+    color: #48e;
+    font-family: sans-serif;
+
+}
+
+/*al pasar el mouse*/
+h1:hover{
+    color: #000000;
+}
+
+/*cuando se clickea*/
+h1:active{
+    background-color: #999;
+    color: #fff;
+}
+
+
+/*seleccionando el primer li*/
+li:first-child{
+    color: red;
+}
+
+/*seleccionando el ultimo li*/
+li:last-child{
+    color: blueviolet;
+}
+
+/*seleccinando el segundo o cualquier elemento*/
+li:nth-child(2){
+    color: orange;
+}
+
+/*seleccionar elementos cada tantos en este ejemplo 3*/
+li:nth-child(3n){
+    color: aqua;
+}
+
+/*seleccionando el div en caso de estar vacio*/
+div:empty{
+    background-color: #48e;
+    padding: 20px;
+}

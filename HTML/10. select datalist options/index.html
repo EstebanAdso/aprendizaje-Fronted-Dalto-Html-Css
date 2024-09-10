@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextArea</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--para que focusee el elemento al clickear el label tenemos qeu colocar
+    un id en el input y ese nmismo colocarlo en el for en el label
+    o sino en el cierre de label tenemos que tener dentro el input-->
+    <form>    
+        <h2>Formulario de contacto</h2>
+        <div class="form_input">
+            <label for="nombre">Nombre Completo</label>
+            <input name="nombre" id="nombre" type="text" placeholder="Nombre Completo">
+        </div>
+        <div class="form_input">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Email">
+        </div>
+
+        <!--select y option-->
+        <div class="form_input">
+            <label for="">tipo de usuario</label>
+            <select name="select" id="select">
+                <!--el value es importante por que se lo trabaja con js-->
+                <option value="user1">Seguidor</option>
+                <option value="user2">Empresa</option>
+                <option value="user3">Gerente</option>
+                <option value="user4">Usuario</option>
+                <option value="user5">Otros</option>
+            </select>
+        </div>
+
+        <!--datalist-->
+        <div class="form_input">
+            <label for="">Referente</label>
+            <input list="referente">
+            <datalist id="referente" name="referente" >
+                <!--se autocompleta-->
+                <option value="user1">Dalto</option>
+                <option value="user2">Amigo</option>
+                <option value="user3">Familia</option>
+                <option value="user4">Compañeros</option>
+                <option value="user5">Otros</option>
+            </datalist>
+        </div>
+
+        <div class="form_input">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" rows="4" name="textarea" id="textarea" placeholder="Agrega la observación"></textarea>
+        </div>
+        
+        <div class="form_input">
+            <label for="check">Acepto los terminos y condiciones</label>
+            <input id="check" type="checkbox">
+        </div>
+    </form>
+</body>
+</html>
+<!--6:24-->

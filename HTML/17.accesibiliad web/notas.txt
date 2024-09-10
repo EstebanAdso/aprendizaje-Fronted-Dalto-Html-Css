@@ -1,0 +1,5 @@
+se utiliza chrome box una extension de chrome para lectores de pantalla
+se utiliza alt por ejemplo en imagenes para describir ej alt="imagen de un gato negro" esto no solo es para imagenes
+en los  enlaces se utiliza aria-label para que sepan que hace aria-label"enlace que va a la seguna pagina"
+
+para checkear que la web sea accesible le damos click derecho inspeccionar y en lighthouse y analizar carga de pagina y nos dara el porcentaje de accesibilidad

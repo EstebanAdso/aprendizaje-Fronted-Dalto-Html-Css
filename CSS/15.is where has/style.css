@@ -1,0 +1,40 @@
+/* Estilo general para todos los h2 en los artículos usando :is() */
+:is(.destacado, .especial, article) h2 {
+    color: navy;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  /* Agrupando varios selectores usando :where() con 0 especificidad */
+  :where(section, article, div) {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo específico para artículos destacados y especiales */
+  :is(.destacado, .especial) {
+    border: 2px solid orange;
+    padding: 15px;
+    background-color: #fdf6e3;
+  }
+  
+  /* Usando :is() con elementos de noticias importantes y secundarias */
+  :is(.importante, .secundaria) {
+    background-color: #f9e6e6;
+    border-left: 5px solid red;
+    padding: 10px;
+  }
+  
+  /* Usar :has() para seleccionar divs que contienen un <span> */
+  .comentario:has(span) {
+    background-color: #e0f7fa;
+    padding: 10px;
+    border: 1px solid teal;
+  }
+  
+  /* Cambiar el estilo de un artículo con productos si la lista tiene al menos 3 elementos */
+  ul:has(li:nth-child(3)) {
+    border: 2px solid green;
+    padding: 10px;
+    background-color: #f1f8e9;
+  }
+  
