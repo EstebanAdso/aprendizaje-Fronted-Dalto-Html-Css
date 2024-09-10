@@ -33,6 +33,10 @@ body{
     color: #48e;
 
 }
+.link--button{
+    /*no ocupa espacio en la pagina y se comporta como sino estuviera*/
+    display: none
+}
 
 div{
     padding: 20px;

@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+.contenedor{
+    margin: 20px;
+    border: 2px solid black;
+    background-color: #ccc;
+    /*al asignarle este contenedor como relativo las posiciones absolutas
+    tomaran a este de guia*/
+    position: relative;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    color: #fff;
+}
+
+
+.box--blue{
+    background-color: blue;
+
+}
+
+/*la posicion absoluta no ocupa espacio en el navegador y la podemos posicionar
+respecto a un contenedor relativo si no lo tenemos sera desde el body*/
+.box--orange{
+    background-color: orange;
+    position: absolute;
+    right: 0;
+}
+.box--green{
+    background-color: green;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.box--violet{
+    background-color: violet;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+
+}

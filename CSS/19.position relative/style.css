@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    color: #fff;
+}
+
+.box:first-child{
+    top: 80px;
+    left: 80px;
+    z-index: 3;
+}
+
+/*al ser relativo conservara su posicion pero se podra desplazar segun le indiquemos
+ademas sera una guia para los elementos que esten dentro de el*/
+.box--blue{
+    background-color: blue;
+    top: 50px;
+    left: 50px;
+    z-index: 1; /*le decimos que este por encima de otros
+    el z index solo sirve cuando tenemos posicionado los elementos*/
+
+}
+
+.box--orange{
+    background-color: orange;
+}

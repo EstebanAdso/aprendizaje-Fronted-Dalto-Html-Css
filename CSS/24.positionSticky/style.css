@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+/*la posicion sticky hara lo mismo que fixed pero se quedara quieto
+cuando alcance la posicon que se le indica en este caso 20px top*/
+.box{
+    height: 60px;
+    width: 200px;
+    background-color: #fff;
+    position: sticky;
+    top: 20px;
+    right: 0;
+    border: 2px solid black;
+    border-right: 0;
+    box-shadow: 0 0 40px #0009;
+}

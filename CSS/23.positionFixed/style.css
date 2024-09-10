@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*el espacio reservado se elimina como absolute pero se quedara en la
+posicion aun con el scroll fijamente*/
+/*este no toma enc  cuenta la posicion relativa sino el contenido completo de html*/
+.box{
+    height: 60px;
+    width: 200px;
+    background-color: #fff;
+    position: fixed;
+    right: 0;
+    border: 2px solid black;
+    border-right: 0;
+    box-shadow: 0 0 40px #0009;
+    top: 200px;
+}
