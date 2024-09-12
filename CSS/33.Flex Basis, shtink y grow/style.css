@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div,body{
+    box-sizing: border-box;
+}
+
+.flexbox{
+    /*automaticamente los elementos se alinean y se ajustan*/
+    display: flex;
+    flex-direction: row; /*cambiando la direccion, tenemos row, column y mas*/
+    flex-wrap: wrap; /*los elementos pueden ir hacia abajo si ya no hay espacio*/
+    border: 2px solid #000;
+    /*para no dejar espacios vacios en la caja*/
+    /*alineacion en el eje vertical como horizontal*/
+    justify-content: center; /*eje principal*/ /*se puede start, end y muchas mas propiedades* ,space-between, */
+    align-items: center; /*alinear items en el eje cruzado por defecto es strech*/
+    align-content: center; /*alinear el contenido*/ /*se usa cuando hay mas de una linea*/
+    gap: 10px; /*margen que se utiliza en flex*/
+}
+
+
+/*se puede centrar elementos de la manera de align items y align content center
+o tambien definiendo flex al elemento padre y al hijo margin auto*/
+.flex-item{
+    height: 100px;
+    background-color: red;
+    text-align: center;
+    flex-grow: 1;/*tamaño definido*/
+    flex-shrink: 0; /*cuando se puede encojer*/
+    flex-basis: 50px; /*tamaño predefindo, norrmalmente no se ocupa el width sino esta propiedad*/
+    /*pare resumir las 3 propiedades se usa esta*/
+    flex: 1  0 50px;
+}
+
+.item--5{
+    /*funciona solamente cuando se utiliza align items*/
+    align-self: flex-end;
+}
+
+.flex-item:first-child{
+    /*escoger cuanto ocupara en la pantalla*/
+    flex-grow: 2;/*ocupara el doble*/
+    flex-shrink: 3; /*se encojera 3 veces mas de lo normal*/
+}
+
+.flex-item:nth-child(2n){
+    background-color: #c00;
+}
+
+.flex-item:last-child{
+    background-color: #000;
+    color: #fff;
+    flex-grow: 4; /*ocupara el doble que first child y  4 veces mas que los demas elementos*/
+    
+}

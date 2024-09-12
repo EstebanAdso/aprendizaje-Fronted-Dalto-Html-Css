@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+
+/*para que no se salga el contenido de la caja al tener mayor contenido dentro de el
+se usa overflow por defecto es overflow: visible*/
+/*overflow hidden se deja de leer lo que sobresalga*/
+/*con scroll se puede mirar todo haciendo scroll*/
+/*lo mejor es overflow auto por que si no se desvorda no necesita scroll y si lo
+necesita lo agregara*/
+.box{
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    color: red;
+    position: relative;
+    left: 0;
+    border: 2px solid #0009;
+    margin: auto;
+    margin-top: 20px;
+    overflow: auto;
+    overflow-x: hidden;
+}

@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #fff;
+    border: 1px solid black;
+    /*controla el espacio de linea puede decir que no tenga saltos de linea con nowrap*/
+    /*pre detecta los saltos de linea tal cual los tenemos */
+    white-space: normal;
+    overflow: auto;
+    word-wrap: anywhere; /*las palabras largas las tira para abajo cortandolas*/
+}
+
+
+/*pára mostrar los puntos suspensivos como mensaej*/
+.box2{
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #fff;
+    border: 1px solid black;
+    /*controla el espacio de linea puede decir que no tenga saltos de linea con nowrap*/
+    /*pre detecta los saltos de linea tal cual los tenemos */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}    
+
+h1{
+    /*Balancea el texto para que el texto quede mas bonito
+    tambien funciona con pretty*/
+    text-wrap: balance;
+}

@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flexbox{
+    /*automaticamente los elementos se alinean y se ajustan*/
+    display: flex;
+    flex-direction: row; /*cambiando la direccion, tenemos row, column y mas*/
+    flex-wrap: wrap; /*los elementos pueden ir hacia abajo si ya no hay espacio*/
+}
+
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-item:nth-child(2n){
+    background-color: #c00;
+}
+
+.flex-item:last-child{
+    background-color: #000;
+    color: #fff;
+}

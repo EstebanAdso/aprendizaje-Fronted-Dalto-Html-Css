@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emmet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    ul>li
+    <ul>
+        <li></li>
+    </ul>
+    ul>li*3>a
+    <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+    ul>(li>a)*4
+    <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+    ul.header-ul>li.list-item*4>a.link
+    <ul class="header-ul">
+        <li class="list-item"><a href="" class="link"></a></li>
+        <li class="list-item"><a href="" class="link"></a></li>
+        <li class="list-item"><a href="" class="link"></a></li>
+        <li class="list-item"><a href="" class="link"></a></li>
+    </ul>
+    header.header>nav.header-nav>ul.header-ul>li.list-item*4>a.link{link}
+    <header class="header">
+        <nav class="header-nav">
+            <ul class="header-ul">
+                <li class="list-item"><a href="" class="link">link</a></li>
+                <li class="list-item"><a href="" class="link">link</a></li>
+                <li class="list-item"><a href="" class="link">link</a></li>
+                <li class="list-item"><a href="" class="link">link</a></li>
+            </ul>
+        </nav>
+    </header>
+    header.header>nav.header-nav>ul.header-ul>li.list-item*4>a.link{link $}
+    <header class="header">
+        <nav class="header-nav">
+            <ul class="header-ul">
+                <li class="list-item"><a href="" class="link">link 1</a></li>
+                <li class="list-item"><a href="" class="link">link 2</a></li>
+                <li class="list-item"><a href="" class="link">link 3</a></li>
+                <li class="list-item"><a href="" class="link">link 4</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

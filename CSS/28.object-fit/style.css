@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+/*adaptara la imagen bien a pesar de que las dimensiones no coincidan con la imagen original*/
+img{
+    margin-top: 30px;
+    width: 400px;
+    height: 100px;
+    object-fit: cover; /*podemos usar contain o cover para que se ajuste bien*/
+    object-position: top; /*ajustamos lo que queremos ver en que posicon*/
+}

@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div,body{
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.flexbox{
+    /*automaticamente los elementos se alinean y se ajustan*/
+    display: flex;
+    flex-direction: column; /*cambiando la direccion, tenemos row, column y mas*/
+    flex-wrap: wrap; /*los elementos pueden ir hacia abajo si ya no hay espacio*/
+    /*flex flow permite modificar la direccion y el wrap de maenra abreviada*/
+    flex-flow: column wrap;
+    border: 2px solid #000;
+    margin: 20px;
+    /*para no dejar espacios vacios en la caja*/
+    /*alineacion en el eje vertical como horizontal*/
+    justify-content: center; /*eje principal*/ /*se puede start, end y muchas mas propiedades* ,space-between, */
+    align-items: center; /*alinear items en el eje cruzado por defecto es strech*/
+    align-content: center; /*alinear el contenido*/ /*se usa cuando hay mas de una linea*/
+
+}
+
+/*cambiar su orden visual en el dom*/
+/*por defecto el order siempre es cero*/
+.flex-item:first-child{
+    background-color: aqua;
+    order: 1; /*al tener un ordenamiento mayor sobre pasa a todos los cero y en este caso se pone de ultimo como un z index*/
+}
+
+/*se puede centrar elementos de la manera de align items y align content center
+o tambien definiendo flex al elemento padre y al hijo margin auto*/
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-item:nth-child(2n){
+    background-color: #c00;
+}
+
+.flex-item:last-child{
+    background-color: #000;
+    color: #fff;
+}

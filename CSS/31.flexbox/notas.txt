@@ -1,0 +1,20 @@
+es un modelo de caja para que se adapte al tamaño
+(flexibles no importa el tamaño que tenga) se adaptaran con el tamaño que  tengan dentro de la caja contenedora
+
+basicamente tendremos la caja contenedora -> flexbos
+y los elementos dentro tendremos los flexItem
+
+a los flexitem se los puede cambiar la direccion, la posicion
+
+row -> alinear elementos en fila en orden de la direccion del texto
+row-reverse -> alinea los elementos en el sentido contrario de la direccion del texto
+column -> define que la direccion sera de arriba hacia abajo
+colum-reverse -> lo mismo de column pero en la otra direccion
+
+tenemos dos ejes main axis de izquiera a derecha
+y cross axis que es de arriba abajo
+estos pueden cambiar su direccion depende a la orientacion del texto.
+
+tambien podemos alinear los item con flexbox con align items y justify content
+
+se eliminar los margenes y utilizamos gap para separar
