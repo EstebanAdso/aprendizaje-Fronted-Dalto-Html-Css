@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: #aaa;
+    background-color: #eee;
+}
+
+.header{
+    height: 100dvh;
+    box-sizing: border-box;
+    background-image: url("../../HTML/4.imagenes/perfil4.jpeg");
+    display: flex;
+    background-size: cover;
+}
+
+body, div, header, nav, ul, img, p{
+    box-sizing: border-box;
+}
+h1{
+    margin: 0;
+    font-size: 3.2rem;
+    text-wrap: balance;
+}
+
+.header__overlay{
+    min-height: 100dvh;
+    width: 100%;
+    background-color: #0006;
+    position: absolute;
+    z-index: 1;
+}
+
+.header__item-container{
+    position: relative; /*para que funcione el zindex*/
+    z-index: 10;
+    margin: auto;
+    text-align: center;
+    max-width: 700px;
+}
+
+.header__img{
+    min-width: 250px;
+    max-width: 40%;
+    border-radius: 50%;
+    border: 6px solid white;
+    margin: 20px;
+}
+
+.header__item-container p{
+    text-wrap: pretty;
+}
+
+/*NAVEGACION------------------------------------*/
+.nav{
+    background-color: rgb(255, 255, 255);
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 5px 0px black;
+}
+
+.nav__ul{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nav__item{
+    list-style: none;
+}
+
+.nav__ul-container{
+    flex-grow: 1;
+}
+
+.nav__logo-container{
+    flex-grow: 0;
+}
+
+.nav__link{
+    color: #49f;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 6px;
+    border-radius: 0;
+    transition: background-color 0.4s,
+    border-radius 0.4s, outline 0.4s, outline-offset 0.4s;
+    outline: 0;
+    outline-offset: 0;
+    font-size: 18px;
+    
+}
+
+.nav__link:hover{
+    color: rgb(255, 255, 255);
+    background-color: #47a;
+    border-radius: 20px;
+    outline: 2px solid #0005;
+    outline-offset: -5px;
+}
+
+.nav__logo{
+    width: 80px;
+    margin-right: 100px;
+}
+
+.link--login{
+    background-color: #47a;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 24px;
+    margin-left: 6px;
+}
+
+.link--login:hover{
+    background-color: #36d;
+    outline: none;
+    outline-offset: none;
+}
+
+main{
+    width: 50%;
+    min-width: 800px;
+    font-size: 18px;
+    text-align: left;
+    text-wrap: balance;
+    margin: auto;
+    background-color: #eee;
+    color: black;
+    margin-top: 20px;
+}

@@ -1,0 +1,1 @@
+esribir codigo en caso de que el navegador soporte una funcionalidad

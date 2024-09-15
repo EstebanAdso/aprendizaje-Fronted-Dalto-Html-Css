@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*medidas de impresion*/
+@media print{
+    body{
+        font-size: 12pt;
+        color: red;
+    }
+}
+
+/*para pantallas*/
+@media  screen and (max-width:500px) {
+    body{
+        font-size: 30px;
+        background-color: black;
+        color: aliceblue;
+    }
+}

@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*si el navegador soporta*/
+@supports (color :oklab(30% 0.2 30)){
+    body{
+        color: oklab(30% 0.2 30)
+    }
+}
+
+/* si no lo soporta*/
+@supports not (color :oklab(30% 0.2 30)){
+    body{
+        color: red
+    }
+}

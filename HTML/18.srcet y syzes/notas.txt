@@ -1,0 +1,11 @@
+basicamente es tener una imagen con varias dimensiones para segun el tamaño de la pantalla en la que se va a previsualizar
+se usara segun la resolucion esto para optimizar y que tengamos mejores resultados, es por esto que es importante tener de una imagen
+de banner por ejemplo varias resoluciones para cada formato de pantalla, normalmente se usa la imagen grande y se la enchiquece en 
+programas de diseño y de esta manera escogeremos la imagen a usar, por ejemplo en un celular no es necesario usar una imagen que es 
+para un computador ya que consumira mas recursos de la web
+
+
+hora 13
+minuto 55 
+para estudiar el contenido.
+https://www.youtube.com/watch?v=ELSm-G201Ls&t=36210s

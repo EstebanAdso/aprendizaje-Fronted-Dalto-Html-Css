@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*CONTENIDO FLEXIBLE PARA IMAGENES*/
+ 
+img{
+    max-width: 100%; /*de esta forma siempre sera felxible */
+    height: auto;
+}
+
+/*para videos es diferente*/ /*forma antigua*/
+.container{
+    position: relative;
+    max-width: 100%;
+    padding-top: 56.25%;
+    height: 0;
+}
+video{
+    position: absolute;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/*forma nueva*/
+
+.container:last-child{
+    position: relative;
+    aspect-ratio: 16/9;
+}
+video:last-child{
+    max-width: 100%;
+}
