@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+body, div{
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    /*tenemos auto-fit y auto fill es como un wrapper en flex*/
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: row;
+    grid-auto-columns: 1fr;
+    gap: 10px 20px; 
+    background-color: #fff;
+}
+.grid-item{
+    background-color: #48e;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+    background-image: url(../../HTML/4.imagenes/perfil4.jpeg);
+    background-size: cover;
+    }
+
+.grid-item:first-child{
+    /*primer valor donde comienza y el otro donde termina*/
+    /*para el primer elemento por defecto sera 1*/
+    grid-column-start: 1;
+    grid-row-start: 1;
+    /*para abreviarlo*/
+    grid-column: 1/span 3;
+    grid-row: 1/span 3;
+    /*donde terminara la linea*/
+    /* grid-column-end: 3;
+    grid-row-end: 3; */
+}
+
+.grid-item:hover{
+    opacity: 0.5;
+}
+
+img{
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    /*definimos el tipo de query container*/
+    container-type: inline-size;
+    container-name: main; /*se le puede dar un nombre personalizado*/
+}
+
+p{
+    font-size: 8px;
+}
+
+/*si el contenedor es mas pequeño de 500px*/
+@container main (max-width:500px){
+    p{
+        font-size: 20px;
+        background-color: #000;
+        color: white;
+    }
+}

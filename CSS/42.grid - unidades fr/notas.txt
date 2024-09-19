@@ -1,0 +1,5 @@
+Con grid se puede trabajar horizontal como verticalmente por que no tenemos
+solo una direccion tenemos dos
+
+se trabaja con flexbox si necesitamos una direccion
+si necesitamos grillas usamos grid

@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid{
+    display: grid; 
+    height: 80vh;
+    /*tamaño de las columnas*/ /*y cuantas columnas queremos que tenga*/
+    grid-template-columns: auto auto 300px; /*auto hara que tome todo el espacio disponible pero tomara en cuenta el contenido de la caja*/
+    /*tamaño de las filas*/
+    grid-template-rows: 200px auto;
+    
+}
+
+.grid-item{
+    background-color: #48e;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+}

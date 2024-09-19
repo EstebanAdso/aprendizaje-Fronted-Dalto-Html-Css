@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+body, div{
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-template-rows: repeat(3,250px);
+    grid-auto-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+    /*nueva propiedad para grid mueve los items en la posicion de la celda en el eje horizontal*/
+    justify-items: center;
+    /*con esta propiedad se mueven las celdas*/
+    justify-content: end;
+    /*lo mismo que el items pero en el eje vertical*/
+    align-items: center;
+    /*en el eje vertical*/
+    align-content: start;
+}
+.grid-item{
+    background-color: #48e;
+    margin: 10px;
+    padding: 10px;
+    max-width: 100%;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.grid-item:first-child{
+    /*justufy self para asignar un valor a que parte de la grilla lo posicionaremos*/
+    justify-self: start;
+}
+
+
+
+
+.grid-item:hover{
+    opacity: 0.5;
+}
+
+
+
+/*template areas index.html*/

@@ -1,0 +1,2 @@
+explicito es el contenido que definimos en el grid
+el implicito es el que no esta definido
