@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.crecedor{
+    height: 100vh;
+}
+
+.box{
+    view-timeline: --cajita block; /*elemento que depende de quien se esta viendo*/
+    background-color: #48e;
+    padding: 20px;
+    animation: llenar-barra;
+    /*propiedad de que depende de la vista del elemento*/
+    animation-timeline: view(); /*apenas se mire comenzara la animacion*/
+    /*si le asignamos un nombre lo podemos poner con el*/
+    view-timeline: --cajita;
+}
+
+
+@keyframes llenar-barra{
+    from{
+        width: 10%;
+        background-color: orange;
+    }
+    to{
+        width: 100%;
+        background-color: red;
+    }
+}
+
+

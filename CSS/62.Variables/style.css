@@ -1,0 +1,57 @@
+:root{
+    /*LAS COSAS QUE FUNCIONEN EN TODA LA PAGINA SE LAS DAREMOS AL ROOT*/
+    --color-rojo: rgb(120, 6, 6);
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    /*es mejor definirlos en el body para que alcance todos los elemnetos*/
+    --color-azul: #48e;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.box{
+    /*VARIBALES en el alcance de un elemento*/
+    --color-principal: #f44;
+    background-color: var(--color-principal);
+    display: grid;
+    place-content: center;
+    color: #fff;
+    font-size: 20px;
+    width: 600px;
+    margin: 120px auto;
+    padding: 0 40px;
+    width: clamp(400px, 100%,1600px);
+    border: 2px solid black;
+    /*USANDO CLAMP CON FONTSIZE*/
+    font-size: clamp(1rem,2.2vw,2rem);
+}
+
+.container{
+    background-color: aqua;
+    display: grid;
+    place-content: center;
+    color: var(--color-principal);
+    font-size: 20px;
+    width: 600px;
+    margin: 120px auto;
+    padding: 0 40px;
+    width: clamp(400px, 100%,1600px);
+    border: 2px solid black;
+    /*USANDO CLAMP CON FONTSIZE*/
+    font-size: clamp(1rem,2.2vw,2rem);
+    /*Urilizar de nuevo el color principal*/
+}
+
+.container h2{
+    color: var(--color-azul);
+}
+
+body > p{
+    color: var(--color-azul);
+}

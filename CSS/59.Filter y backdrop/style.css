@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+}
+
+.box{
+    background-color: #10232f;
+    margin: auto;
+    padding: 29px 50px;
+    /*Funcion de filtro de sombra*/
+    filter: drop-shadow(0 0 15px #000);
+    filter: blur(4px); /*desenfocar es interesante para los modales*/
+    filter: brightness(3); /*Brillo de la imagen*/
+    filter: contrast(3); /*Contraste*/
+    filter: saturate(10); /*Saturacion*/
+    filter: grayscale(); /*Blanco y negro*/
+}

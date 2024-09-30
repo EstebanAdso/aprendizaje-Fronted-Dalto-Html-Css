@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.crecedor{
+    height: 100vh;
+}
+
+.box{
+    background-color: #48e;
+    padding: 20px;
+    width: 10%;
+    height: 300px;
+    animation: llenar-barra both; /*both obtiene de una vez las propiedades del from*/
+    /*propiedad de que depende de la vista del elemento*/
+    animation-timeline: view(); /*apenas se mire comenzara la animacion*/
+    /*Por defecto el rango es de normal*/
+    animation-range: cover 20%; /*cuando arracara la animacion*/
+    animation-range-end:  contain 80%; /*cuando tenerminara la animacion*/
+
+    /*COVER -> COMENZARA APENAS SE MIRE EL ELEMENTO*/
+    /*CONTAINER -> COMENZARA CUANDO EL ELEMENTO SE MIRE COMPLETO*/
+}
+
+
+@keyframes llenar-barra{
+    from{
+        width: 10%;
+        background-color: orange;
+    }
+    to{
+        width: 100%;
+        background-color: red;
+    }
+}
+
+

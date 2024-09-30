@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+.box{
+    border: 2px solid black;
+    font-size: 20px;
+    margin: 120px auto;
+    padding: 0 40px;
+    width: clamp(400px, 100%,1600px);
+    font-size: clamp(1rem,2.2vw,2rem);
+    /*Funcion calc - siempre tiene que haber un espacio en el signo*/
+    width: calc(50% + 100px);
+    /*Se puede restar dividir y multiplicar y demas*/
+}
+

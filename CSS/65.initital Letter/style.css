@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    font-size: 25px;
+    padding: 0 40px;
+    border: 6px solid #000
+}
+
+/*Tiene que tener el pseudo elemento first letter*/
+p::first-letter{
+    /*Initial letter*/
+    initial-letter: 3 2 ; /*Define cuantas lineas va a ocupar*/
+    padding-bottom: 0;
+    color: blue;
+}

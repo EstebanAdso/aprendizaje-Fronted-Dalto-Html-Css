@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    margin: auto;
+    font-size: 30px;
+    padding: 0 40px;
+    border: 6px solid #000;
+    width: 70vw;
+    max-width: 1400px;
+    height: 100vh;
+    overflow: scroll;
+    /*propiedad para scroll suavidad al bajar*/
+    scroll-behavior: smooth;
+    /*color de la barra*/
+    scrollbar-color: #ccc rgb(72, 64, 72);
+    /*tamaño del scroll*/
+    scrollbar-width: thin; /*auto, thin, none*/
+}
+div > p{
+    font-size: 22px;
+}
+

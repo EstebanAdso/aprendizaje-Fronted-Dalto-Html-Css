@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #48e;
+}
+
+.box{
+    margin: auto;
+    padding: 20px 50px;
+    border: 4px solid #000;
+    width: fit-content;
+}
+
+img{
+    scale: 1.4; /*agrandar o enchiquecer*/
+    transform: skew(20deg); /*inclina la imagen*/
+    rotate: 180deg; /*Rotar la imagen*/
+    transform: translate(50px); /*Trasladar el elemento*/
+}
+

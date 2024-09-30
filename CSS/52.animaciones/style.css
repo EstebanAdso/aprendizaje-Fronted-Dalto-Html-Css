@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.box{
+    margin: 20px;
+    background-color: #fff;
+    padding: 6px;
+    border: 3px solid #48e;
+    border-radius: 39px;
+}
+
+.barra{
+    padding: 40px;
+    background-color: #48e;
+    border-radius: 30px;
+    width: 10%;
+    transition: width 2s;
+}
+
+/*cuando se le clickee*/
+.barra:active{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.box2{
+    margin: 20px;
+    background-color: #fff;
+    padding: 6px;
+    border: 3px solid #48e;
+    border-radius: 39px;
+}
+
+.barra2{
+    padding: 40px;
+    background-color: #48e;
+    border-radius: 30px;
+    width: 10%;
+    /*por pasos como bateria.*/
+    transition: width 2s steps(10);
+}
+
+/*cuando se le clickee*/
+.barra2:active{
+    width: 100%;
+    box-sizing: border-box;
+    transition-duration: 3s;
+}

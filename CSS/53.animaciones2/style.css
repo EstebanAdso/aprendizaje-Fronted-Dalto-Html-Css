@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.box{
+    margin: 20px;
+    background-color: #fff;
+    padding: 6px;
+    border: 3px solid #48e;
+    border-radius: 39px;
+}
+
+.barra{
+    padding: 40px;
+    background-color: #48e;
+    border-radius: 30px;
+    width: 10%;
+    animation-name: llenar-barra;
+    animation-duration: 5s;
+    animation-delay: 2s; /*cuando tardara para empezar*/
+    animation-fill-mode: both; /*esta propiedad hace que se quede en el 100% al finalizar ademas no tomara en cuenta algunas propiedades si se sobreecribieron en la animacion a diferencia forward tomara en cuenta las propiedades como en este csaso backgroung color azul*/
+    animation-iteration-count: 3; /*numero de iteraciones*/
+    animation-direction: alternate; /*que se alterne la animacion de adelante hacia atras*/
+}
+
+ /*al presionar que se pause*/
+.barra:active{
+    animation-play-state: paused;
+}
+
+/*CREAR LA ANIMACION*/
+@keyframes llenar-barra{
+    from{
+        width: 10%;
+        background-color: orange;
+    }
+    to{
+        width: 100%;
+        background-color: red;
+    }
+}
+
